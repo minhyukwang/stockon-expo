@@ -1,22 +1,22 @@
 module.exports = {
   expo: {
-    name: '스탁온',
+    name: '스톡온',
     slug: 'stockon-expo',
     owner: 'thinkingcat',
-    version: '1.0.0',
+    version: '1.0.2',
     icon: './assets/icon.png',
     orientation: 'portrait',
     userInterfaceStyle: 'light',
     newArchEnabled: true,
     assetBundlePatterns: ['**/*'],
-    runtimeVersion: '1.0.0',
+    runtimeVersion: '1.0.2',
     ios: {
       icon: './assets/icon.png',
       supportsTablet: true,
       bundleIdentifier: 'com.thinkingcat.stockon',
-      buildNumber: '1',
+      buildNumber: '3',
 
-      backgroundColor: '#4bbcca',
+      backgroundColor: '#121212',
       userInterfaceStyle: 'light',
       splash: {
         image: './assets/splash-icon.png',
@@ -24,9 +24,9 @@ module.exports = {
         backgroundColor: '#ffffff',
       },
       infoPlist: {
-        CFBundleDisplayName: '스탁온',
-        NSCameraUsageDescription: '스탁온 앱의 기능을 원활하게 이용하기 위해 카메라 촬영 권한이 필요합니다.',
-        NSMicrophoneUsageDescription: '스탁온 앱의 기능을 원활하게 이용하기 위해 마이크 사용 권한이 필요합니다.',
+        CFBundleDisplayName: '스톡온',
+        NSCameraUsageDescription: '스톡온 앱의 기능을 원활하게 이용하기 위해 카메라 촬영 권한이 필요합니다.',
+        NSMicrophoneUsageDescription: '스톡온 앱의 기능을 원활하게 이용하기 위해 마이크 사용 권한이 필요합니다.',
         UIBackgroundModes: ['remote-notification'],
         ITSAppUsesNonExemptEncryption: false,
       },
@@ -38,7 +38,7 @@ module.exports = {
       },
       edgeToEdgeEnabled: true,
       package: 'com.thinkingcat.stockon',
-      versionCode: 1,
+      versionCode: 3,
       backgroundColor: '#ffffff',
       permissions: [
         'INTERNET',

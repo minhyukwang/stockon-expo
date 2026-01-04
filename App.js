@@ -18,7 +18,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 
-const STATUS_BAR_COLOR = '#4bbcca';
+const STATUS_BAR_COLOR = '#121212';
 
 // 스플래시 화면을 자동으로 숨기지 않도록 설정
 SplashScreen.preventAutoHideAsync();

@@ -17,6 +17,7 @@
     "production": {
       "ios": {
         "appleId": "minhyuk.tech@gmail.com",
+        "ascAppId": "6747305287",
         "appleTeamId": "KV644J856Q"
       }
     }
