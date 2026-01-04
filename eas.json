@@ -16,7 +16,8 @@
   "submit": {
     "production": {
       "ios": {
-        "ascAppId": "6747305287"
+        "appleId": "minhyuk.tech@gmail.com",
+        "appleTeamId": "KV644J856Q"
       }
     }
   }

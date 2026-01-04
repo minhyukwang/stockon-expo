@@ -1,1 +1,1 @@
-# checkon-expo
+# stockon-expo

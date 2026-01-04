@@ -2,6 +2,7 @@ module.exports = {
   expo: {
     name: '스탁온',
     slug: 'stockon-expo',
+    owner: 'thinkingcat',
     version: '1.0.0',
     icon: './assets/icon.png',
     orientation: 'portrait',
@@ -85,9 +86,11 @@ module.exports = {
     ],
     extra: {
       eas: {
+        projectId: '3ace716e-143f-4ff6-88c5-a6cd9d9d09f0',
       },
     },
     updates: {
+      url: 'https://u.expo.dev/3ace716e-143f-4ff6-88c5-a6cd9d9d09f0',
     },
   },
 };
